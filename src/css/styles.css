@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', 'Open Sans', 'Poppins', sans-serif;
+  color: whitesmoke;
+  min-width: 320px;
+  overflow-x: hidden;
+  line-height: 1.5;
+  background: linear-gradient(rgba(18, 18, 18, 0.95), rgba(18, 18, 18, 0.95));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  background: linear-gradient(90deg, #fa6e00, #e60026);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: #fa6e00;
+  text-decoration-thickness: 2px;
+}
+
+p,
+ul {
+  color: #959595;
+}
+
+.container {
+  max-width: 320px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}

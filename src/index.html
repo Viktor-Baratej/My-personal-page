@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Frontend Devoleper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:wght@200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/about me.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/education.css" />
+    <link rel="stylesheet" href="./css/scrollToTop.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container header-content">
+        <a href="index.html" class="header-logo-link">
+          <div class="header-logo">
+            <span class="header-logo-text">VB</span>
+            <img
+              class="header-img"
+              src="./img/WW7A71731111.jpg"
+              alt="my foto"
+              width="30"
+              height="30"
+            />
+          </div>
+        </a>
+        <button class="burger-menu" id="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+          <ul class="header-list">
+            <li class="header-item"><a href="#About me">About me</a></li>
+            <li class="header-item"><a href="#Projects">Projects</a></li>
+            <li class="header-item"><a href="#Education">Education</a></li>
+            <li class="header-item"><a href="#Contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-btn">
+          <ul class="header-soc-list">
+            <li class="header-soc-item">
+              <a
+                href="https://www.linkedin.com/in/viktor-baratej/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="header-soc-item">
+              <a href="https://t.me/viktor_baratejj" target="_blank"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </li>
+            <li class="header-soc-item">
+              <a
+                href="https://github.com/Viktor-Baratej?tab=repositories"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="header-lang">
+            <button id="theme-toggle">
+              <span id="theme-icon">🌙</span>
+            </button>
+            <select id="languages">
+              <option value="en">EN</option>
+              <option value="ua">UK</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="Hero">
+        <div class="container hero-content">
+          <div class="hero-description">
+            <h1 class="hero-title">Frontend Devoleper</h1>
+            <p class="hero-name">Viktor Baratej</p>
+            <p class="hero-text">
+              Hello! I'm Viktor, I build interactive and stylish interfaces that
+              captivate from the first click.
+            </p>
+            <div class="hero-btn-content">
+              <a
+                href="./pdf/CV ViktorBaratej.pdf"
+                download="./pdf/CV ViktorBaratej.pdf"
+                class="hero-btn"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-profile">
+            <img class="hero-img" src="./img/WW7A71731111.jpg" alt="my foto" />
+          </div>
+        </div>
+      </section>
+
+      <!-- about me -->
+      <section id="About me">
+        <div class="container about-me-container">
+          <h2 class="about-me-title">About me</h2>
+          <p class="about-me-text">
+            Hello! I am a frontend developer who is passionate about building
+            web applications. I have knowledge of HTML, CSS, and JavaScript, as
+            well as experience in creating React projects and TypeScript. I
+            specialize in developing responsive layouts and strive to create
+            user-friendly and aesthetically pleasing interfaces. I am always
+            open to learning and looking for an opportunity to realize my
+            potential by working on innovative products in a professional team.
+          </p>
+          <div class="about-soft-content">
+            <h3 class="about-me-description">Soft Skills:</h3>
+            <ul class="about-me-description-list">
+              <li class="about-me-description-item">- Time management</li>
+              <li class="about-me-description-item">
+                - Collaboration with colleagues
+              </li>
+              <li class="about-me-description-item">- Openness to change</li>
+              <li class="about-me-description-item">- Self-control</li>
+              <li class="about-me-description-item">- Discipline</li>
+              <li class="about-me-description-item">- Responsibility</li>
+            </ul>
+          </div>
+
+          <h3 class="about-me-description">Tech Skills:</h3>
+          <div class="about-tech-container">
+            <div class="about-tech-content">
+              <h4 class="about-me-description-2">Frontend:</h4>
+              <ul class="about-me-description-list">
+                <li class="about-me-description-item">- HTML</li>
+                <li class="about-me-description-item">- CSS</li>
+                <li class="about-me-description-item">- JavaScript</li>
+                <li class="about-me-description-item">- React</li>
+                <li class="about-me-description-item">- Vercel</li>
+                <li class="about-me-description-item">- Render</li>
+                <li class="about-me-description-item">- Figma</li>
+                <li class="about-me-description-item">- Slack</li>
+                <li class="about-me-description-item">- Jira</li>
+              </ul>
+            </div>
+            <div class="about-tech-content">
+              <h4 class="about-me-description-2">
+                Frameworks, Libraries and API:
+              </h4>
+              <ul class="about-me-description-list">
+                <li class="about-me-description-item">- Vite.js</li>
+                <li class="about-me-description-item">- Axios</li>
+                <li class="about-me-description-item">- Izitoast</li>
+                <li class="about-me-description-item">- Simplelightbox</li>
+                <li class="about-me-description-item">- Pixabay API</li>
+                <li class="about-me-description-item">- Unsplash API</li>
+                <li class="about-me-description-item">- JSON</li>
+                <li class="about-me-description-item">- Postman</li>
+                <li class="about-me-description-item">- MockAPI</li>
+              </ul>
+            </div>
+            <div class="about-tech-content">
+              <h4 class="about-me-description-2">Version Control:</h4>
+              <ul class="about-me-description-list">
+                <li class="about-me-description-item">- Git</li>
+                <li class="about-me-description-item">- GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section id="Projects">
+        <div class="container project-container">
+          <h2 class="project-title">My projects</h2>
+          <ul id="items">
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 173943.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">WebStudio</h4>
+              <p class="project-item-text">
+                A website of WebStudio company. Responsive design, transform
+                effects, modal windows.
+              </p>
+              <a
+                href="https://github.com/Viktor-Baratej/goit-markup-hw-06"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://viktor-baratej.github.io/goit-markup-hw-06/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174011.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">Yachtjet</h4>
+              <p class="project-item-text">
+                Website of a company engaged in the sale and rental of
+                yachts.Yachtjet single page site. Responsive design, compliance
+                with all standards. Excellent work experience.
+              </p>
+              <a
+                href="https://github.com/1ster14ka/dream-team"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://1ster14ka.github.io/dream-team/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174031.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">
+                Portfolio (single-page website)
+              </h4>
+              <p class="project-item-text">
+                The goal of the project is to create a prototype portfolio that
+                will allow the student to easily and effectively present their
+                achievements, projects, and skills to their future employer.
+              </p>
+              <a
+                href="https://github.com/1ster14ka/js-avengers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://1ster14ka.github.io/js-avengers/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174239.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">Image Search App (JavaScript)</h4>
+              <p class="project-item-text">
+                Developed an image search application in JavaScript using API.
+                Implemented asynchronous requests using fetch and processed the
+                received data. Displayed images as cards with information
+                (likes, views, comments, downloads). Added dynamic search with
+                keyword input and interactive interface. Used CSS for responsive
+                design.
+              </p>
+              <a
+                href="https://github.com/Viktor-Baratej/goit-js-hw-12"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://viktor-baratej.github.io/goit-js-hw-12/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174156.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">Phonebook (React App)</h4>
+              <p class="project-item-text">
+                Developed a Phonebook application in React to store contacts.
+                Used state (useState) to manage the contact list and filtering.
+                Implemented validation of input data and uniqueness of contacts.
+                Added styling using CSS and responsive design. Used local
+                storage (localStorage) to store contacts between sessions.
+              </p>
+              <a
+                href="https://github.com/Viktor-Baratej/goit-react-hw-08"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://goit-react-hw-08-eight-liart-42.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174618.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">Movie Search App (React & API)</h4>
+              <p class="project-item-text">
+                Developed an application for searching and viewing popular
+                movies in React using API. Implemented dynamic loading of
+                trending movies, a page with details about each movie, and
+                search by title. Used React Router for navigation between pages.
+                Added responsive design, animations, and smooth effects to
+                improve UI/UX.
+              </p>
+              <a
+                href="https://github.com/Viktor-Baratej/goit-react-hw-05"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://goit-react-hw-05-nu-beryl.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174058.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">To do list</h4>
+              <p class="project-item-text">To do list manager</p>
+              <a
+                href="https://github.com/Viktor-Baratej/TODO-LIST"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://viktor-baratej.github.io/TODO-LIST/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+
+            <li class="project-item">
+              <img
+                class="project-img"
+                src="./img/Знімок екрана 2025-03-03 174111.png"
+                alt=""
+                width="50"
+                height="50"
+              />
+              <h4 class="project-item-title">HTML Table</h4>
+              <p class="project-item-text">
+                Created an HTML table for structured data display
+              </p>
+              <a
+                href="https://github.com/Viktor-Baratej/Table"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-btn-content">
+                  <button class="project-btn">
+                    <i class="fa-brands fa-github"></i> View Code
+                  </button>
+                </a>
+                <a
+                  href="https://viktor-baratej.github.io/Table/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="project-btn">
+                    <i class="fa-solid fa-earth-europe"></i> Live page
+                  </button>
+                </a>
+                </div>
+            </li>
+          </ul>
+
+         
+      </section>
+
+      <!-- education -->
+      <section id="Education">
+        <div class="container education-container">
+          <div class="education-content">
+            <h2 class="education-title">Education:</h2>
+            <ul class="education-list">
+              <li class="education-item">
+                <p class="education-text"> - IT School GOIT (2024 - 2025) - FullStack Developer</p></li>
+              <li>
+                <p class="education-text">
+                   - Svalyava Technical College of the National University of Food
+                  Technologies (2004 - 2008) - Maintenance of computer and
+                  intelligent systems and networks Junior specialist
+                </p>
+              </li>
+              <li class="education-item">
+                <p class="education-text">
+                   - Svalyavsky Educational and Advisory Center of the Ternopil
+                  National University of Economics (2008 - 2011) - Finance and
+                  credit (Bachelor)
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="education-lang">
+            <h2 class="education-title">Languages:</h2>
+            <ul class="education-list">
+              <li class="education-item">Ukrainian - Native</li>
+              <li class="education-item">English – Beginner</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <button id="scrollToTop">
+        <i class="fa-solid fa-circle-arrow-up"></i>
+      </button>
+    </main>
+
+    <!-- footer -->
+    <footer id="Contacts">
+      <div class="container footer-content">
+        <h2 class="footer-title">Contacts:</h2>
+        <div class="footer-dectop">
+          <div class="footer-soc-content">
+            <ul class="footer-soc-list">
+              <li class="footer-soc-item">
+                <a
+                  href="https://www.linkedin.com/in/viktor-baratej/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="https://t.me/viktor_baratejj" target="_blank"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  href="https://github.com/Viktor-Baratej?tab=repositories"
+                  target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <address>
+            <div class="footer-address-content">
+              <ul class="footer-address-list">
+                <li class="footer-address-item">
+                  <a href="mailto:Viktor1baratejj@gmail.com"
+                    >Viktor1baratejj@gmail.com, </a
+                  >
+                </li>
+                <li class="footer-address-item">
+                  <a href="tel:+380660728708">+38 (066) 07-28-708</a>
+                </li>
+              </ul>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/burger.js"></script>
+    <script type="module" src="./js/scrollToTop.js"></script>
+    <script
+      src="https://kit.fontawesome.com/549946b405.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

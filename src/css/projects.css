@@ -1,0 +1,82 @@
+.project-container {
+  border-bottom: 1px solid #959595;
+  padding-bottom: 20px;
+}
+.project-title {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.project-item {
+  padding: 13px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+}
+.project-img {
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+.project-item-title {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.project-item-text {
+  font-size: 15px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.project-btn-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.project-btn {
+  background: rgba(255, 255, 255, 0.04);
+  color: #959595;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.project-btn:hover {
+  color: black;
+  background: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  #items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  #items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

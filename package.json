@@ -1,0 +1,29 @@
+{
+  "name": "my-personal-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor-Baratej/My-personal-page.git"
+  },
+  "author": "Viktor Baratej <Viktor_baratejj@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor-Baratej/My-personal-page/issues"
+  },
+  "homepage": "https://github.com/Viktor-Baratej/My-personal-page#readme",
+  "description": ""
+}

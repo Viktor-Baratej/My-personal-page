@@ -1,0 +1,29 @@
+#scrollToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(90deg, #fa6e00 0%, #e60026 100%);
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#scrollToTop i {
+  font-size: 22px;
+  color: rgb(21, 21, 21);
+  transition: transform 0.3s ease-in-out;
+}
+
+#scrollToTop:hover {
+  transform: scale(1.2);
+}
+
+#scrollToTop:hover i {
+  transform: scale(1.2);
+}
