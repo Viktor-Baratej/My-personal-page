@@ -8,9 +8,26 @@
 
 .hero-title {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   text-align: center;
+  line-height: 1.1;
   font-size: 50px;
+}
+@keyframes slideFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  animation: slideFromTop 2s ease-out;
 }
 
 .hero-name {
