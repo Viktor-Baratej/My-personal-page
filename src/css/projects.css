@@ -23,17 +23,17 @@
   align-items: center;
   border: none;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .project-item:hover {
-  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
-  transform: translateY(-5px);
+  box-shadow: 5px 10px 20px rgba(255, 255, 255, 0.3);
+  transform: translateY(-10px);
 }
 .project-img {
   width: 100%;
-  object-fit: cover;
-  padding-bottom: 10px;
+  object-fit: contain;
+  padding-bottom: 20px;
 }
 .project-item-title {
   font-size: 20px;
@@ -44,7 +44,7 @@
 .project-item-text {
   font-size: 15px;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .project-btn-content {
@@ -73,10 +73,19 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  .project-title {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   #items {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .project-title {
+    padding-bottom: 40px;
   }
 }
